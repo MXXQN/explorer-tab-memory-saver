@@ -17,6 +17,6 @@ The similarly named [Explorer Tabs Session Saver](https://windhawk.net/mods/expl
 
 The mod saves the folder paths and active tab for the last window you close. Duplicate tabs are preserved. Windows supplies the tab order, which can differ from an order you set by dragging tabs.
 
-Each Windows user has a separate session in `HKEY_CURRENT_USER\Software\ExplorerTabMemory`. Leave the **Windows account SID** setting empty to enable the mod for all users, or enter a user’s SID to restrict it to that account.
+Each Windows user has a separate session. The catalog build encrypts saved folder paths for the current user and keeps them in Windhawk's mod storage. It can import a pending session from version 0.2.1. Leave **Windows account SID** empty to enable the mod for all users, or enter the SID shown by `whoami /user` to restrict it to one account.
 
 [Source repository](https://github.com/MXXQN/explorer-tab-memory-saver) · [MIT license](LICENSE)
