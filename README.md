@@ -2,7 +2,9 @@
 
 A Windhawk mod that remembers the tabs in the last File Explorer window you close. Reopen Explorer to **Home** or **This PC** to return to the folder you were using. Open a specific folder and it stays selected while the saved folders reopen as tabs in the same window.
 
-Tested on Windows 11 x64, build 26300.9974, with native File Explorer tabs.
+By [Maxxwell Quinn](https://github.com/MXXQN). Tested on Windows 11 x64, build 26300.9974, with native File Explorer tabs.
+
+The similarly named [Explorer Tabs Session Saver](https://windhawk.net/mods/explorer-tabs-session-saver) opens saved folders through the Windows shell and recommends a companion utility to group them into tabs. Explorer Tab Memory Saver creates native tabs directly in the window you open and restores the selected folder. It works with Windhawk alone.
 
 ## Install manually
 
